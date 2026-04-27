@@ -130,7 +130,7 @@ function CalculatorSection() {
                 <p className="text-xs text-red-500 mb-2">{error}</p>
               )}
 
-              <div className="flex items-center gap-2">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
                 <select
                   value={from}
                   onChange={(e) => setFrom(e.target.value)}
@@ -160,7 +160,7 @@ function CalculatorSection() {
               </div>
             </div>
 
-            //VITAL token checkbox//
+            {/* VITAL token checkbox */}
             <label className="flex items-center gap-3 px-4 py-3 border border-gray-200 rounded-xl cursor-pointer hover:bg-blue-50 transition">
               <input
                 type="checkbox"
@@ -174,7 +174,7 @@ function CalculatorSection() {
             </label>
           </div>
 
-          //Right side — summary //
+          {/* Right side — summary */}
           <div className="md:w-72 bg-blue-50 rounded-2xl p-6 flex flex-col gap-4 border border-blue-100">
             <h3 className="text-lg font-extrabold text-blue-900 border-b border-blue-200 pb-3">
               Exchange Summary
