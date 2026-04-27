@@ -8,10 +8,10 @@ const FLAGS = [
 
 export default function VitalSwapHero() {
   return (
-    <section className="min-h-[calc(100vh-64px)] flex flex-col items-center justify-center text-center px-6 py-16 md:py-24 bg-white relative overflow-hidden">
+    <section className="min-h-[calc(100vh-64px)] flex flex-col items-center justify-center text-center px-6 py-16 md:py-24 bg-white relative overflow-hidden w-full">
       <div className="relative z-10 max-w-3xl w-full animate-[fadeUp_0.7s_ease_both]">
 
-        <h1 className="text-[36px] sm:text-[48px] md:text-[56px] font-extrabold text-slate-900 leading-tight tracking-tight mb-6">
+        <h1 className="text-[36px] sm:text-[48px] md:text-[56px] font-extrabold text-slate-900 leading-tight tracking-tight mb-6 break-words">
           Simple transparent pricing for
           <br />
           <span className="text-blue-600">Every Swap</span>
