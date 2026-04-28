@@ -57,9 +57,9 @@ export default function Navbar() {
           className="md:hidden flex flex-col justify-center gap-1.5 w-9 h-9 p-1 rounded-md hover:bg-gray-100 transition-colors"
           aria-label="Toggle menu"
         >
-          <span className={`block h-0.5 bg-gray-700 rounded transition-transform duration-300 origin-center ${menuOpen ? "translate-y-2 rotate-45" : ""}`} />
-          <span className={`block h-0.5 bg-gray-700 rounded transition-opacity duration-300 ${menuOpen ? "opacity-0" : ""}`} />
-          <span className={`block h-0.5 bg-gray-700 rounded transition-transform duration-300 origin-center ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`} />
+          <span className={`block h-0.5 w-full bg-gray-700 rounded transition-transform duration-300 origin-center ${menuOpen ? "translate-y-2 rotate-45" : ""}`} />
+          <span className={`block h-0.5 w-full bg-gray-700 rounded transition-opacity duration-300 ${menuOpen ? "opacity-0" : ""}`} />
+          <span className={`block h-0.5 w-full bg-gray-700 rounded transition-transform duration-300 origin-center ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`} />
         </button>
       </nav>
 
