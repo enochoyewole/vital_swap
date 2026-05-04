@@ -78,12 +78,12 @@ export default function FeesSection() {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-10">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-40">
 
           {/* Labels + percentages inline */}
           <div className="flex flex-col gap-6 flex-1">
             {FEES.map((fee) => (
-              <div key={fee.label} className="flex items-start gap-3">
+              <div key={fee.label} className="flex items-start gap-5">
                 <div
                   className="w-4 h-4 rounded-full mt-1 flex-shrink-0"
                   style={{ backgroundColor: fee.color }}
